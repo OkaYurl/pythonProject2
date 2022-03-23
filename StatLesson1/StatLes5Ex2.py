@@ -18,7 +18,7 @@ v = n - 1
 print(v)
 data_s = data_set.mean()
 print(data_s)
-data_std = np.std(data_set, ddof=1)
+data_std = np.std(data_set, ddof=1)  # не сразу сообразила, что встроенная data_set.std() дает смещенное отклонение
 print(data_std)
 t = st.t.ppf(1 - alpha/2, v)
 print('t', t)

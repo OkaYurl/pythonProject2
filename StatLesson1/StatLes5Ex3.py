@@ -16,7 +16,7 @@ alpha = 0.05
 
 # H0 mu=mu0
 # H1 mu>mu0
-# Z = 1,95
+# Z = 1,65
 # Zh = (mu - mu) / sigma / sqrt(n)
 # Ph(Zh>Z)
 

@@ -24,7 +24,7 @@ alpha = 1 - p
 
 data_s = data_set.mean()  # mu
 print(data_s)
-data_std = data_set.std()  # sigma
+data_std = np.std(data_set, ddof=1)  # sigma
 print(data_std)
 t = st.t.ppf(1 - alpha/2, v)
 print('t', t)
@@ -37,8 +37,8 @@ if abs(th) < t:
 else:
     print('Гипотеза H1 верна')
 
-# 198.5
-# 4.224926034855522
+# 98.5
+# 4.453463071962462
 # t 3.2498355440153697
-# th -1.1227217828476797
+# th -1.0651074037450896
 # Гипотеза H0 верна
