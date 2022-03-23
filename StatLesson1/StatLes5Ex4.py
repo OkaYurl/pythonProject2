@@ -20,7 +20,6 @@ alpha = 1 - p
 # H1 mu<>mu0
 # T = 3,25
 # Th = (mu - mu) / sigma / sqrt(n)
-# Ph(Zh>Z)
 
 data_s = data_set.mean()  # mu
 print(data_s)
